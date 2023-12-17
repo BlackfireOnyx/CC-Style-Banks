@@ -4,9 +4,8 @@
 {
 	width: 100%; 
 	max-width: 300px; 
-	display: flex; 
-	gap: 1.5em; 
-	margin: 0px auto;
+	margin: 2.5rem auto;
+	text-align: center;
 }
 
 #andi_profile img
@@ -20,7 +19,12 @@ h1
 	font-family: 'Splash', sans-serif; 
 	color: var(--primary);
 	font-size: 3rem;
+	margin: 3.5rem auto 2.5rem;
 }
+
+legend{color: var(--secondary); font-family: 'Architects Daughter', sans-serif; font-size: 125%; font-weight: normal;}
+.progress-bar{border-radius: 5px;}
+.progress{border-radius: 5px;}
 
 /* Dovetail */
 main
