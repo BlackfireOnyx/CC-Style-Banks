@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cinzel&family=Splash&display=swap');
+
+#andi_profile
+{
+	width: 100%; 
+	max-width: 300px; 
+	margin: 2.5rem auto;
+	text-align: center;
+}
+
+#andi_profile img
+{
+	object-fit: scale-down; 
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1
+{
+	font-family: 'Splash', sans-serif; 
+	color: var(--primary);
+	font-size: 3rem;
+	margin: 3.5rem auto 2.5rem;
+}
+
+legend{color: var(--secondary); font-family: 'Architects Daughter', sans-serif; font-size: 125%; font-weight: normal;}
+.progress-bar{border-radius: 5px;}
+.progress{border-radius: 5px;}
