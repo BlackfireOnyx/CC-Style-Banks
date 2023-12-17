@@ -22,34 +22,10 @@ h1
 	font-size: 3rem;
 }
 
-/* Dovetail */
-
-main
-{
-	--primary: #908A83 !important; 
-	--secondary: #4E7287 !important;
-}
-
-/* Silver Oak */
-
-main
-{
-	--primary: #F5BD45 !important; 
-	--secondary: #6278A0 !important;
-}
-
 /* Hazel Creek */
 
 main
 {
 	--primary: #B87D31 !important; 
 	--secondary: #325EB8 !important;
-}
-
-/* Strickland */
-
-main
-{
-	--primary: #564D7D !important; 
-	--secondary: #6B7D41 !important;
 }
