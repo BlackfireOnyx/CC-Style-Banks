@@ -15,7 +15,6 @@
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Dovetail */
 h1
 {
 	font-family: 'Splash', sans-serif; 
@@ -23,6 +22,7 @@ h1
 	font-size: 3rem;
 }
 
+/* Dovetail */
 main
 {
 	--primary: #908A83 !important; 
