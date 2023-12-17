@@ -20,11 +20,12 @@ h1
 	font-family: 'Splash', sans-serif; 
 	color: var(--primary);
 	font-size: 3rem;
+	margin: 3.5rem auto 2.5rem;
 }
 
 #andi_tackbox
 {
-	margin: 4em auto !important;
+	margin: 3.5em auto !important;
 }
 
 legend
