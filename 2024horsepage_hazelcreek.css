@@ -4,9 +4,8 @@
 {
 	width: 100%; 
 	max-width: 300px; 
-	display: flex; 
-	gap: 1.5em; 
-	margin: 0px auto;
+	margin: 2.5rem auto;
+	text-align: center;
 }
 
 #andi_profile img
@@ -23,15 +22,9 @@ h1
 	margin: 3.5rem auto 2.5rem;
 }
 
-#andi_tackbox
-{
-	margin: 3.5em auto !important;
-}
-
-legend
-{
-	color: var(--secondary);
-}
+legend{color: var(--secondary);}
+.progress-bar{border-radius: 5px;}
+.progress{border-radius: 5px;}
 
 /* Hazel Creek */
 
