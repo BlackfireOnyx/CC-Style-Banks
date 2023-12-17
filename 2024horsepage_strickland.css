@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cinzel&family=Splash&display=swap');
+
+#andi_profile
+{
+	width: 100%; 
+	max-width: 300px; 
+	display: flex; 
+	gap: 1.5em; 
+	margin: 0px auto;
+}
+
+#andi_profile img
+{
+	object-fit: scale-down; 
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1
+{
+	font-family: 'Splash', sans-serif; 
+	color: var(--primary);
+	font-size: 3rem;
+}
+
+/* Strickland */
+
+main
+{
+	--primary: #564D7D !important; 
+	--secondary: #6B7D41 !important;
+}
