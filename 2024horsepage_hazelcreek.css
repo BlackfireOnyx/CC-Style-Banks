@@ -24,7 +24,7 @@ h1
 
 #andi_tackbox fieldset
 {
-	margin-top: 3.5em;
+	margin: 4em auto !important;
 }
 
 legend
