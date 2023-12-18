@@ -17,10 +17,9 @@
 #andi_profile fieldset
 {
 	font-size: 80%;
-	margin-left: -25%;
 	margin-top: 2.5rem;
 	text-align: left;
-	width: 133%;
+	width: 100%;
 }
 
 #andi_profile legend{font-size: 150%;}
