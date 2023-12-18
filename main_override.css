@@ -9,11 +9,10 @@
 	gap: 2.5rem;
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
 }
 
 #ap_left{flex: 1 2 50%;}
-#ap_right{flex: 2 1 50%;}
+#ap_right{flex: 2 1 50%; visibility: collapse;}
 
 #andi_profile img
 {
