@@ -3,10 +3,16 @@
 #andi_profile
 {
 	width: 100%; 
-	max-width: 300px; 
-	margin: 2.5rem auto;
-	text-align: center;
+	margin: 1.5rem auto;
+	display: flex;
+	gap: .5rem;
+	height: 382px;
+	align-items: center;
+	justify-content: center;
 }
+
+#ap_left{flex: 1 2 50%;}
+#ap_right{flex: 2 1 50%; max-height: 400px; overflow: scroll;}
 
 #andi_profile img
 {
@@ -18,7 +24,6 @@
 {
 	font-size: 80%;
 	margin-top: 2.5rem;
-	text-align: left;
 }
 
 #andi_profile legend{font-size: 150%;}
