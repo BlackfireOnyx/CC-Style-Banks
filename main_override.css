@@ -3,30 +3,25 @@
 #andi_profile
 {
 	width: 100%; 
+	height: 382px;
 	margin: 1.5rem auto;
 	display: flex;
-	gap: .5rem;
-	height: 382px;
+	gap: 2.5rem;
 	align-items: center;
 	justify-content: center;
 }
 
 #ap_left{flex: 1 2 50%;}
-#ap_right{flex: 2 1 50%; max-height: 400px; overflow: scroll;}
+#ap_right{flex: 2 1 50%;}
 
 #andi_profile img
 {
 	object-fit: scale-down; 
-	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+	box-shadow: .1rem .1rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-#andi_profile fieldset
-{
-	font-size: 80%;
-	margin-top: 2.5rem;
-}
-
-#andi_profile legend{font-size: 150%;}
+#andi_profile fieldset{font-size: 80%;}
+#andi_profile legend{font-size: 1.25rem;}
 
 h1
 {
@@ -36,6 +31,6 @@ h1
 	margin: 3.5rem auto 2.5rem;
 }
 
-legend{color: var(--secondary); font-family: 'Architects Daughter', sans-serif; font-size: 125%; font-weight: normal;}
+legend{color: var(--secondary); font-family: 'Architects Daughter', sans-serif; font-size: 1.25rem; font-weight: normal;}
 .progress-bar{border-radius: 5px;}
 .progress{border-radius: 5px;}
