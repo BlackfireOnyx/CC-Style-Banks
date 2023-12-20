@@ -20,6 +20,7 @@
 {
 	object-fit: scale-down; 
 	box-shadow: .1rem .1rem 1rem rgba(0, 0, 0, 0.2);
+	max-height: 382px;
 }
 
 #andi_profile fieldset{font-size: 80%;}
