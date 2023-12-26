@@ -5,15 +5,19 @@
 	width: 100%; 
 	height: 382px;
 	margin: 1.5rem auto;
-	display: flex;
-	gap: 1rem;
-	align-items: center;
-	justify-content: center;
 }
 
-@media(min-width: 1000px) AND (max-width: 1700px){#andi_profile{flex-wrap: wrap;}}
+#ap_main
+{
+	margin: 1.5rem 0;
+	border: 1px solid var(--border);
+	padding: 1.5rem;
+	border-radius: 0.5rem;
+	display: flex;
+	font-size: .75rem;
+}
 
-#ap_left{flex: 1 2 50%;}
+#ap_left{flex: 1 1 40%;}
 #ap_right{flex: 2 1 50%;}
 
 #andi_profile img
@@ -26,6 +30,10 @@
 #andi_profile fieldset{font-size: 80%;}
 #andi_profile legend{font-size: 1.25rem;}
 
+#andi_profile ul{list-style: none;}
+#andi_profile h2{color: var(--secondary); font-size: 1.25rem; margin-bottom: 0; font-family: 'Architects Daughter', sans-serif; font-weight: normal;}
+#andi_profile table{margin: 10px;} #andi_profile tr td:first-child{font-weight: bold; color: var(--primary);}
+
 h1
 {
 	font-family: 'Splash', sans-serif; 
@@ -34,6 +42,9 @@ h1
 	margin: 3.5rem auto 2.5rem;
 }
 
+h3{color: var(--secondary);}
+
 legend{color: var(--secondary); font-family: 'Architects Daughter', sans-serif; font-size: 1.25rem; font-weight: normal;}
 .progress-bar{border-radius: 5px;}
 .progress{border-radius: 5px;}
+#showstats b{font-size: 1.25rem; color: var(--primary);}
