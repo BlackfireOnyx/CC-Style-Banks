@@ -35,7 +35,15 @@
 
 #andi_profile ul{list-style: none;}
 #andi_profile h2{color: var(--secondary); font-size: 1.25rem; margin-bottom: 0; font-family: 'Architects Daughter', sans-serif; font-weight: normal;}
-#andi_profile table{margin: 10px;} #andi_profile tr td:first-child{font-weight: bold; color: var(--primary);}
+#andi_profile li:nth-child(odd){background: var(--alt);}
+#andi_profile li{padding: .25rem; border: 1px Solid var(--border);}
+
+#ap_fauxtable{width: 100%;}
+.ap_fauxrow{display: flex; gap: .2em; margin: .2em auto;}
+.ap_fauxcell{padding: .25rem; border: 1px Solid var(--border);}
+.ap_fauxrow .ap_fauxcell:first-child{font-weight: bold; color: var(--secondary); flex: 1 40%;}
+.ap_fauxrow .ap_fauxcell:last-child{flex: 2 60%;}
+#ap_fauxtable .ap_fauxrow:nth-child(odd){background: var(--alt);}
 
 h1
 {
@@ -43,6 +51,7 @@ h1
 	color: var(--primary);
 	font-size: 3rem;
 	margin: 3.5rem auto 2.5rem;
+	font-style: normal;
 }
 
 h3{color: var(--secondary);}
