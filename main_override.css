@@ -34,6 +34,7 @@
 #ap_trivia{}*/
 
 #andi_profile .tabcontent{padding: 1rem;}
+#andi_profile .tablinks{font-family: Oswald;  color: var(--primary); font-size: 1rem;}
 
 #andi_profile img
 {
