@@ -46,7 +46,6 @@
 #andi_profile legend{font-size: 1.25rem;}
 
 #andi_profile ul{list-style: none;}
-h2{color: var(--secondary); font-size: 1.25rem; margin-bottom: 0; font-family: 'Architects Daughter', sans-serif; font-weight: normal;}
 #andi_profile li:nth-child(odd){background: var(--background);}
 #andi_profile li{padding: .25rem; border: 1px Solid var(--border);}
 
