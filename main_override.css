@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cinzel&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cinzel&family=Splash&family=Oswald&display=swap');
 
 #andi_profile
 {
 	width: 100%; 
-	min-height: 382px;
-	margin: 1.5rem auto;
 }
 
 #ap_main
+{
+	border: 1px solid var(--border);
+	padding: 1.5rem;
+	border-radius: 0.5rem;
+}
+
+/*#ap_main
 {
 	margin: 1.5rem 0;
 	border: 1px solid var(--border);
@@ -19,10 +24,16 @@
 	align-items: center;
 	justify-content: center;
 	height: 382px;
-}
+}*/
 
 #ap_left{flex: 1 1 40%;}
 #ap_right{flex: 2 1 50%;}
+
+#ap_gallery{text-align: center; height: 382px;}
+/*#ap_tackbox{}
+#ap_trivia{}*/
+
+#andi_profile .tabcontent{padding: 1rem;}
 
 #andi_profile img
 {
@@ -35,8 +46,8 @@
 #andi_profile legend{font-size: 1.25rem;}
 
 #andi_profile ul{list-style: none;}
-#andi_profile h2{color: var(--secondary); font-size: 1.25rem; margin-bottom: 0; font-family: 'Architects Daughter', sans-serif; font-weight: normal;}
-#andi_profile li:nth-child(odd){background: var(--alt);}
+h2{color: var(--secondary); font-size: 1.25rem; margin-bottom: 0; font-family: 'Architects Daughter', sans-serif; font-weight: normal;}
+#andi_profile li:nth-child(odd){background: var(--background);}
 #andi_profile li{padding: .25rem; border: 1px Solid var(--border);}
 
 #ap_fauxtable{width: 100%;}
@@ -44,7 +55,7 @@
 .ap_fauxcell{padding: .25rem; border: 1px Solid var(--border);}
 .ap_fauxrow .ap_fauxcell:first-child{font-weight: bold; color: var(--secondary); flex: 1 40%;}
 .ap_fauxrow .ap_fauxcell:last-child{flex: 2 60%;}
-#ap_fauxtable .ap_fauxrow:nth-child(odd){background: var(--alt);}
+#ap_fauxtable .ap_fauxrow:nth-child(odd){background: var(--background);}
 
 h1
 {
@@ -55,9 +66,10 @@ h1
 	font-style: normal;
 }
 
+h2{color: var(--secondary); margin-bottom: 0; font-family: Oswald, sans-serif; font-weight: normal;}
 h3{color: var(--secondary);}
 
-legend{color: var(--secondary); font-family: 'Architects Daughter', sans-serif; font-size: 1.25rem; font-weight: normal;}
+legend{color: var(--secondary); font-family: Oswald, sans-serif; font-size: 1.25rem; font-weight: normal;}
 .progress-bar{border-radius: 5px;}
 .progress{border-radius: 5px;}
 #showstats b{font-size: 1.25rem; color: var(--primary);}
