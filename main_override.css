@@ -67,6 +67,8 @@ h1
 	background: linear-gradient(90deg, var(--tertiary) 0%, transparent 33%, transparent 66%, var(--tertiary) 100%);
 }
 
+@media(max-width: 1000px) {h1{background: transparent; margin: 1.5rem auto;}}
+
 h2{color: var(--secondary); font-family: Oswald, sans-serif; font-weight: normal;}
 h3{color: var(--secondary);}
 
