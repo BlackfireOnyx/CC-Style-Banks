@@ -76,3 +76,10 @@ legend{color: var(--secondary); font-family: Oswald, sans-serif; font-size: 1.25
 .progress-bar{border-radius: 5px;}
 .progress{border-radius: 5px;}
 #showstats b{font-size: 1.25rem; color: var(--primary);}
+
+/* Stable Pages */
+
+th{background: var(--primary); /*color: #efefef;*/ color: var(--tertiary); font-weight: normal; font-family: Oswald, sans-serif;}
+
+.dataTables_scrollHeadInner table{border: none; border-radius: 5px 5px 0 0;} .dataTables_scrollHeadInner{margin-bottom: 5px;}
+.dataTables_scrollBody table{border-top: 1px Solid var(--border) !important;}
