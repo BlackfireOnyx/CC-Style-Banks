@@ -70,7 +70,7 @@ h1
 @media(max-width: 1000px) {h1{background: transparent; margin: 1.5rem auto;}}
 
 h2{color: var(--secondary); font-family: Oswald, sans-serif; font-weight: normal;}
-h3{color: var(--secondary);}
+h3{color: var(--primary);}
 
 legend{color: var(--secondary); font-family: Oswald, sans-serif; font-size: 1.25rem; font-weight: normal;}
 .progress-bar{border-radius: 5px;}
@@ -83,3 +83,7 @@ th{background: var(--primary); /*color: #efefef;*/ color: var(--tertiary); font-
 
 .dataTables_scrollHeadInner table{border: none; border-radius: 5px 5px 0 0;} .dataTables_scrollHeadInner{margin-bottom: 5px;}
 .dataTables_scrollBody table{border-top: 1px Solid var(--border) !important;}
+
+.stableinfo p{font-family: 'Architects Daughter', sans-serif; font-style: italic;}
+
+.dataTables_scrollBody small{font-size: .50rem;}
