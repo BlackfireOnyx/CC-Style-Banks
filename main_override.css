@@ -52,7 +52,7 @@
 	border: 10px Solid var(--secondary);
 	border-radius: 0;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 1.5rem;
 	background: #2e2e2e;
 }
 
