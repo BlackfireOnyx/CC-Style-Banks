@@ -84,7 +84,7 @@ h1 small{font-size: 1rem; color: var(--secondary); font-family: 'Oswald', sans-s
 
 @media(max-width: 1000px) {h1{background: transparent; margin: 1.5rem auto;}}
 
-h2{color: var(--secondary); font-family: Oswald, sans-serif; font-weight: normal;}
+h2{color: var(--secondary); font-family: Oswald, sans-serif; font-weight: normal; font-size: 1rem;}
 h3{color: var(--primary);}
 
 legend{color: var(--secondary); font-family: Oswald, sans-serif; font-size: 1.25rem; font-weight: normal;}
