@@ -36,11 +36,24 @@
 #andi_profile .tabcontent{padding: 1rem;}
 #andi_profile .tablinks{font-family: Oswald;  color: var(--secondary); font-size: 1rem;}
 
-#andi_profile img
+/*#andi_profile img
 {
 	object-fit: scale-down; 
 	box-shadow: .1rem .1rem 1rem rgba(0, 0, 0, 0.2);
 	max-height: 382px;
+}*/
+
+#andi_profile img
+{
+	object-fit: scale-down; 
+	box-shadow: .1rem .1rem 1rem rgba(0, 0, 0, 0.2);
+	max-height: 400px;
+	padding: 30px;
+	border: 10px Solid var(--secondary);
+	border-radius: 0;
+	display: block;
+	margin: 0 auto;
+	background: #2e2e2e;
 }
 
 #andi_profile fieldset{font-size: 80%;}
