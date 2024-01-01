@@ -29,8 +29,8 @@
 #ap_left{flex: 1 1 40%;}
 #ap_right{flex: 2 1 50%;}
 
-#ap_gallery{text-align: center; height: 382px;}
-/*#ap_tackbox{}
+/*#ap_gallery{text-align: center; height: 382px;}
+#ap_tackbox{}
 #ap_trivia{}*/
 
 #andi_profile .tabcontent{padding: 1rem;}
