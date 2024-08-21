@@ -1,0 +1,8 @@
+/* Rock Point */
+
+main
+{
+	--primary: #8F4365 !important; 
+	--secondary: #43848F !important;
+	--tertiary: #8F8743 !important;
+}
