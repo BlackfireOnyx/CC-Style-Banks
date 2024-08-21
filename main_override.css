@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cinzel&family=Splash&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cinzel&family=Playfair+Display&family=Oswald&display=swap');
 
 #andi_profile
 {
@@ -72,11 +72,12 @@
 
 h1
 {
-	font-family: 'Splash', sans-serif; 
+	font-family: 'Playfair Display', sans-serif; 
 	color: var(--primary);
 	font-size: 3rem;
 	margin: 3.5rem auto 2.5rem;
 	font-style: normal;
+	font-variant: small-caps;
 	background: linear-gradient(90deg, var(--tertiary) 0%, transparent 33%, transparent 66%, var(--tertiary) 100%);
 }
 
