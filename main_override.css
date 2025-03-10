@@ -47,13 +47,13 @@
 {
 	object-fit: scale-down; 
 	box-shadow: .1rem .1rem 1rem rgba(0, 0, 0, 0.2);
-	max-height: 400px;
+	max-height: 300px;
 	padding: 30px;
 	border: 10px Solid var(--secondary);
 	border-radius: 0;
 	display: block;
-	margin: 0 auto 1.5rem;
-	background: #2e2e2e;
+	margin: 0 auto;
+	background: #2f2f2f;
 }
 
 #andi_profile fieldset{font-size: 80%;}
