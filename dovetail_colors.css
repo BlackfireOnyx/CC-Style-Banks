@@ -1,8 +1,11 @@
 /* Dovetail */
 
-main
-{
-	--primary: #908A83 !important; 
+:root{
+    --background: #34383b !important;
+    --alt: #3b4247 !important;
+    --text: #a3b6c4  !important;
+    --border: #2d3133  !important; 
+    --primary: #908A83 !important; 
 	--secondary: #657B87 !important;
 	--tertiary: #BF925A !important;
 }
