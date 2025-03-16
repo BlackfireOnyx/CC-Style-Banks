@@ -1,8 +1,11 @@
 /* Strickland */
 
-main
-{
-	--primary: #564D7D !important; 
+:root{
+    --background: #3f394d !important;
+    --alt: #393445 !important;
+    --text: #aca3c2  !important;
+    --border: #363242  !important; 
+	--primary: #534870 !important; 
 	--secondary: #6B7D41 !important;
 	--tertiary: #7D624D !important;
 }
