@@ -1,8 +1,12 @@
 /* Hazel Creek */
 
-main
+:root
 {
+	--background: #6B5A43 !important;
+  	--alt: #61513D !important;
+  	--text: #C9BBA7 !important;
+  	--border: #473C2D  !important; 
 	--primary: #B89A74 !important; 
 	--secondary: #749FB8 !important;
-	--tertiary: #786B5A !important;
+	--tertiary: #787269 !important;
 }
