@@ -4,6 +4,7 @@
 #andi_profile
 {
 	width: 100%; 
+	position: relative;
 }
 
 #ap_main
@@ -34,8 +35,9 @@
 #ap_tackbox{}
 #ap_trivia{}*/
 
-#andi_profile .tabcontent{padding: 1rem;}
-#andi_profile .tablinks{font-family: Oswald;  color: var(--secondary); font-size: 1rem;}
+#andi_profile .tabcontent{padding: 1rem; border-radius: 15px;}
+#andi_profile .tablinks{font-family: Oswald;  color: var(--secondary); margin: .5rem;}
+#andi_profile .tablinks.active{border: 1px Solid var(--border); outline: none; border-radius: 10px;}
 
 /*#andi_profile img
 {
@@ -63,6 +65,8 @@
 #andi_profile ul{list-style: none;}
 #andi_profile li:nth-child(odd){background: var(--background);}
 #andi_profile li{padding: .25rem; border: 1px Solid var(--border);}
+
+#ap_gallery{background: none; border: none;}
 
 #ap_fauxtable{width: 100%;}
 .ap_fauxrow{display: flex; gap: .2em; margin: .2em auto;}
@@ -95,6 +99,22 @@ legend{color: var(--secondary); font-family: Oswald, sans-serif; font-size: 1.25
 .progress-bar{border-radius: 5px;}
 .progress{border-radius: 5px;}
 #showstats b{font-size: 1.25rem; color: var(--primary);}
+
+#stable_name{	font-family: 'Qwitcher Grypen', sans-serif; 
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 700;
+	background: linear-gradient(90deg, var(--secondary) 0%, transparent 33%, transparent 66%, var(--secondary) 100%);
+	text-shadow: 2px 2px 1px var(--border);
+  padding: 0;
+  text-align: center;
+  height: 6px;
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0 1.5rem;
+  justify-content: center;
+  border-radius: 1rem;
+  gap: 1rem;}
 
 /* Stable Pages */
 
