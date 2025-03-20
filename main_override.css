@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cinzel&family=Playfair+Display&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
 
 #andi_profile
 {
@@ -72,13 +73,15 @@
 
 h1
 {
-	font-family: 'Playfair Display', sans-serif; 
-	color: var(--primary);
-	font-size: 3rem;
+	font-family: 'Qwitcher Grypen', sans-serif; 
+	/*! color: var(--primary); */
+	font-size: 5rem;
 	margin: 3.5rem auto 2.5rem;
 	font-style: normal;
-	font-variant: small-caps;
+	font-weight: 700;
+	/*! font-variant: small-caps; */
 	background: linear-gradient(90deg, var(--tertiary) 0%, transparent 33%, transparent 66%, var(--tertiary) 100%);
+	text-shadow: 2px 2px 1px var(--border);
 }
 
 h1 small{font-size: 1rem; color: var(--secondary); font-family: 'Oswald', sans-serif; filter: opacity(.75) !important;}
@@ -105,5 +108,3 @@ th{background: var(--primary); color: #efefef; /*color: var(--tertiary);*/ font-
 .stableinfo p{font-family: 'Architects Daughter', sans-serif; font-style: italic;}
 
 .dataTables_scrollBody small{font-size: .50rem;}
-
-h1{text-shadow: 2px 2px 1px var(--border);}
