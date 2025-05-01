@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cinzel&family=Playfair+Display&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+#andi_profile
+{
+	width: 100%;
+	position: relative;
+	margin: 15px auto 50px;
+}
+
+#ap_main
+{
+	border: 1px solid var(--border);
+	padding: 1.5rem;
+	border-radius: 0.5rem;
+}
+
+/*#ap_main
+{
+	margin: 1.5rem 0;
+	border: 1px solid var(--border);
+	padding: 1.5rem;
+	border-radius: 0.5rem;
+	display: flex;
+	font-size: .75rem;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	height: 382px;
+}*/
+
+#ap_left{flex: 1 1 40%;}
+#ap_right{flex: 2 1 50%;}
+
+/*#ap_gallery{text-align: center; height: 382px;}
+#ap_tackbox{}
+#ap_trivia{}*/
+
+#andi_profile .tabcontent{padding: 1rem; border-radius: 15px;}
+#andi_profile .tablinks{font-family: Oswald;  color: var(--secondary); margin: .5rem;}
+#andi_profile .tablinks.active{border: 1px Solid var(--border); outline: none; border-radius: 10px;}
+
+/*#andi_profile img
+{
+	object-fit: scale-down; 
+	box-shadow: .1rem .1rem 1rem rgba(0, 0, 0, 0.2);
+	max-height: 382px;
+}*/
+
+#andi_profile img
+{
+	object-fit: scale-down; 
+	box-shadow: .1rem .1rem 1rem rgba(0, 0, 0, 0.2);
+	max-height: 465px;
+	padding: 30px;
+	border: 10px Solid var(--secondary);
+	border-radius: 0;
+	display: block;
+	margin: 0 auto;
+	background: #2f2f2f;
+}
+
+#andi_profile fieldset{font-size: 80%;}
+#andi_profile legend{font-size: 1.25rem;}
+
+#andi_profile ul{list-style: none;}
+#andi_profile li:nth-child(odd){background: var(--background);}
+#andi_profile li{padding: .25rem; border: 1px Solid var(--border);}
+
+#ap_gallery{background: none; border: none;}
+
+#ap_fauxtable{width: 100%;}
+.ap_fauxrow{display: flex; gap: .2em; margin: .2em auto;}
+.ap_fauxcell{padding: .25rem; border: 1px Solid var(--border);}
+.ap_fauxrow .ap_fauxcell:first-child{font-weight: bold; color: var(--secondary); flex: 1 40%;}
+.ap_fauxrow .ap_fauxcell:last-child{flex: 2 60%;}
+#ap_fauxtable .ap_fauxrow:nth-child(odd){background: var(--background);}
+
+h1
+{
+	font-family: 'Qwitcher Grypen', sans-serif; 
+	/*! color: var(--primary); */
+	font-size: 5rem;
+	margin: 3.5rem auto 2.5rem;
+	font-style: normal;
+	font-weight: 700;
+	/*! font-variant: small-caps; */
+	background: linear-gradient(90deg, var(--tertiary) 0%, transparent 33%, transparent 66%, var(--tertiary) 100%);
+	text-shadow: 2px 2px 1px var(--border);
+}
+
+h1 small{font-size: 1rem; color: var(--secondary); font-family: 'Oswald', sans-serif; filter: opacity(.75) !important;}
+
+@media(max-width: 1000px) {h1{background: transparent; margin: 1.5rem auto;}}
+
+h2{color: var(--secondary); font-family: Oswald, sans-serif; font-weight: normal; font-size: 1rem;}
+h3{color: var(--primary);}
+
+legend{color: var(--secondary); font-family: Oswald, sans-serif; font-size: 1.25rem; font-weight: normal;}
+.progress-bar{border-radius: 5px;}
+.progress{border-radius: 5px;}
+#showstats b{font-size: 1.25rem; color: var(--primary);}
+
+#stable_name{	font-family: 'Qwitcher Grypen', sans-serif; 
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 700;
+	background: linear-gradient(90deg, var(--secondary) 0%, transparent 33%, transparent 66%, var(--secondary) 100%);
+  padding: 0;
+  text-align: center;
+  height: 6px;
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0 1.5rem;
+  justify-content: center;
+  border-radius: 1rem;
+  gap: 1rem;}
+
+/* Stable Pages */
+
+th{background: var(--primary); color: #efefef; /*color: var(--tertiary);*/ font-weight: normal; font-family: Oswald, sans-serif;}
+
+.dataTables_scrollHeadInner table{border: none; border-radius: 5px 5px 0 0;} .dataTables_scrollHeadInner{margin-bottom: 5px;}
+.dataTables_scrollBody table{border-top: 1px Solid var(--border) !important;}
+
+.dataTables_scrollBody td{padding: 1rem;}
+
+.stableinfo p{font-family: 'Architects Daughter', sans-serif; font-style: italic;}
+
+.dataTables_scrollBody small{font-size: .50rem;}
