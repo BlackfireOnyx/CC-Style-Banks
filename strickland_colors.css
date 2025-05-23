@@ -5,7 +5,8 @@
     --alt: #393445 !important;
     --text: #aca3c2  !important;
     --border: #363242  !important; 
-	--primary: #534870 !important; 
-	--secondary: #6B7D41 !important;
+	--primary: #534870 !important; /* PURPLE */
+	/*--secondary: #6B7D41 !important;*/ /*original green*/
+	--secondary: #76873f !important; /*brighter green*/
 	--tertiary: #7D624D !important;
 }
