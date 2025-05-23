@@ -1,0 +1,10 @@
+/* Arabian/Quarab project */
+
+:root{
+--primary{ color: #D99AA5; }
+--tertiary { color: #183940; }
+--secondary { color: #F29544; }
+--background {color: #A1A2A6;}
+--alt {color: #706F73;}
+--text {color: #D7D7D9;}
+}
