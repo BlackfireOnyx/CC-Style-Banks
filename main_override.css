@@ -128,3 +128,5 @@ th{background: var(--primary); color: #efefef; /*color: var(--tertiary);*/ font-
 .stableinfo p{font-family: 'Architects Daughter', sans-serif; font-style: italic;}
 
 .dataTables_scrollBody small{font-size: .50rem;}
+
+a {font-family: 'Oswald', sans-serif; font-weight: 300;}
