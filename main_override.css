@@ -1,1 +1,30 @@
-/* temp */
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&family=Cinzel&family=Oswald&family=Lexend:wght@100..900&Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* Stable Pages */
+
+h1
+{
+  font-family: 'Source Sans 3', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-style: normal;
+  color: var(--secondary);
+}
+
+.dataTables_scrollHeadInner
+{
+  background: var(--tertiary);
+  color: #e2e2e2;
+}
+
+.dataTables_scrollBody
+{
+  font-family: Lexend, sans-serif;
+  font-size: 10pt;
+  font-weight: 300;
+  text-transform: lowercase
+}
+
+.small{font-weight: 500;}
+
+/* Horse Pages */
