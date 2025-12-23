@@ -1,6 +1,15 @@
 /* Strickland */
 
 :root{
+	--primary: #534870 !important; /* PURPLE */
+	--secondary: #879638 !important; /*brighter green*/
+	--tertiary: #7D624D !important;
+}
+
+
+/* PREVIOUS VERSION
+
+:root{
     --background: #3f394d !important;
     --alt: #393445 !important;
     --text: #aca3c2  !important;
@@ -9,4 +18,4 @@
 	/*--secondary: #6B7D41 !important;*/ /*original green*/
 	--secondary: #879638 !important; /*brighter green*/
 	--tertiary: #7D624D !important;
-}
+} */
