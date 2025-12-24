@@ -2,7 +2,7 @@
 
 /* Stable Pages */
 
-h1, h2, h3, h4, h5
+h1, h2, h3, h4, h5, legend
 {
   font-family: 'Source Sans 3', serif;
   font-weight: 300;
@@ -11,10 +11,9 @@ h1, h2, h3, h4, h5
   color: var(--secondary);
 }
 
-h2
-{
-  color: var(--tertiary);
-}
+h2 {color: var(--tertiary);}
+legend {color: var(--primary);}
+input{background: var(--secondary); color: #e2e2e2;}
 
 .dataTables_scrollHeadInner
 {
@@ -29,6 +28,8 @@ h2
   font-weight: 300;
   text-transform: lowercase
 }
+
+.dataTables_scrollBody a{font-weight: 500;}
 
 .small{font-weight: 500;}
 
@@ -79,10 +80,10 @@ nav a
 
 @media (min-width: 769px) {#andi_profile img, .gallery
 {
-	box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.2);
-	max-height: 400px;
-	padding: 2rem;
-	border: .3rem Solid var(--secondary);
+	box-shadow: .2em .2em 1em rgba(0, 0, 0, 0.2);
+	max-width: 60%;
+	padding: 2em;
+	border: .3em Solid var(--secondary);
 	border-radius: 0;
 	display: block;
 	margin: 0 auto;
@@ -92,16 +93,15 @@ nav a
  @media (max-width: 768px) {
 #andi_profile img, .gallery
 {
-	box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.2);
-	max-height: 300px;
-	padding: 1rem;
-	border: .3rem Solid var(--secondary);
+	box-shadow: .2em .2em 1em rgba(0, 0, 0, 0.2);
+	max-width: 60%;
+	padding: 2em;
+	border: .3em Solid var(--secondary);
 	border-radius: 0;
 	display: block;
-	margin-bottom: 2rem;
+	margin: 0 auto;
 	background: color-mix(in srgb, var(--secondary), transparent 60%);
-}
- }
+}}
 
 #stable_name
 {	
