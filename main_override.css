@@ -88,11 +88,10 @@ nav
 {
 	box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.2);
 	max-height: 300px;
-	padding: 1.5rem;
-	border: .2rem Solid var(--secondary);
+	border: .3rem Solid var(--secondary);
 	border-radius: 0;
 	display: block;
-	margin: 0 auto 1.5rem;
+	margin: 0 auto 2rem;
 	background: color-mix(in srgb, var(--secondary), transparent 60%);
 }
  }
