@@ -6,7 +6,7 @@
   	--alt: #61513D !important;
   	--text: #C9BBA7 !important;
   	--border: #473C2D  !important; */
-	--primary: #B89A74 !important; 
-	--secondary: #749FB8 !important;
-	--tertiary: #787269 !important;
+	--primary: #B89A74 !important; /* Tan */
+	--secondary: #749FB8 !important; /* Sky Blue */
+	--tertiary: #8EB874 !important; /* Leaf Green */
 }
