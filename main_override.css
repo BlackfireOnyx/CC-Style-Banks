@@ -102,22 +102,36 @@ nav a
 }}
 
 #stable_name
+{
+	border-radius: 0;
+	display: block;
+	margin: 0 auto;
+  margin-top: -3.75em;
+  max-width: 60%;
+	padding: 2em;
+  font-family: 'Source Sans 3', sans-serif; 
+  text-transform: uppercase;
+  font-weight: 800;
+  color: white;
+  font-size: 1.2em;
+}
+
+/*#stable_name
 {	
   font-family: 'Source Sans 3', sans-serif; 
 	font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 800;
-  color: var(--secondary);
-  padding: 0;
+  color: white;
+  padding: 20px 25px 30px 25px;
+  margin: 2rem auto 1.5rem;
+  background: var(--primary);
+  width: 50%;
   text-align: center;
-  height: 6px;
-  display: flex;
-  align-items: center;
-  margin: 2rem 0 1.5rem;
-  justify-content: center;
-  border-radius: 1rem;
-  gap: 1rem;
-}
+  border-radius: 2rem;
+  outline: var(--tertiary) .2rem solid;
+  outline-offset: .25rem;
+}*/
 
 .ribbons b
 {
