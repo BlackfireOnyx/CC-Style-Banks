@@ -66,10 +66,10 @@ nav
   outline: 1px solid color-mix(in srgb, var(--tertiary), transparent 25%);
 }
 
-[data-theme="dark"]
+/*[data-theme="dark"]
 {
   nav a{color: color-mix(in srgb, var(--secondary), white 50%);}  
-}
+}*/
 
 @media (min-width: 769px) {#andi_profile img
 {
@@ -88,10 +88,11 @@ nav
 {
 	box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.2);
 	max-height: 300px;
+	padding: 1rem;
 	border: .3rem Solid var(--secondary);
 	border-radius: 0;
 	display: block;
-	margin: 0 auto 2rem;
+	margin-bottom: 2rem;
 	background: color-mix(in srgb, var(--secondary), transparent 60%);
 }
  }
