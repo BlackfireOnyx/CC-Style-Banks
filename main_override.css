@@ -62,7 +62,7 @@ h2
 
 nav
 {
-  background: color-mix(in srgb, var(--tertiary), var(--background));
+  background: var(--tertiary);
   outline: 1px solid color-mix(in srgb, var(--tertiary), transparent 25%);
 }
 
@@ -88,11 +88,11 @@ nav
 {
 	box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.2);
 	max-height: 300px;
-	padding: 1.75rem;
+	padding: 1.5rem;
 	border: .2rem Solid var(--secondary);
 	border-radius: 0;
 	display: block;
-	margin: 0 auto;
+	margin: 0 auto 1.5rem;
 	background: color-mix(in srgb, var(--secondary), transparent 60%);
 }
  }
