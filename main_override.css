@@ -33,6 +33,8 @@ select{text-transform: lowercase;}
 main{text-transform: unset;}
 
 a, .small{font-weight: 500;}
+.small{color: var(--primary);}
+small{color: var(--tertiary);}
 
     .container {
       display: flex;
