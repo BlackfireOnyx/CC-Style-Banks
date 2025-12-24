@@ -56,5 +56,49 @@ h2
       .column {
         flex: 1 1 100%;
       }
+}
 
 /* Horse Pages */
+
+nav
+{
+  background: color-mix(in srgb, var(--tertiary), var(--background));
+  outline: 1px solid color-mix(in srgb, var(--tertiary), transparent 25%);
+}
+
+[data-theme="dark"]
+{
+  nav a{color: color-mix(in srgb, var(--secondary), white 50%);}  
+}
+
+img
+{
+	box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.2);
+	max-height: 400px;
+	padding: 2rem;
+	border: .3rem Solid var(--secondary);
+	border-radius: 0;
+	display: block;
+	margin: 0 auto;
+	background: color-mix(in srgb, var(--secondary), transparent 60%);
+}
+
+
+#stable_name
+{	
+  font-family: 'Source Sans 3', sans-serif; 
+	font-size: 1.5rem;
+  text-transform: lowercase;
+  font-weight: 800;
+  color: var(--primary);
+  padding: 0;
+  text-align: center;
+  height: 6px;
+  display: flex;
+  align-items: center;
+  margin: 0 0 1.5rem;
+  justify-content: center;
+  border-radius: 1rem;
+  gap: 1rem;
+
+}
