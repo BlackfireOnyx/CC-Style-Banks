@@ -63,7 +63,13 @@ h2
 nav
 {
   background: var(--tertiary);
-  outline: 1px solid color-mix(in srgb, var(--tertiary), transparent 25%);
+  outline: 1px solid color-mix(in srgb, var(--tertiary), black 25%);
+  color: var(--secondary);
+}
+
+nav a 
+{
+  color: #fff;
 }
 
 /*[data-theme="dark"]
@@ -71,7 +77,7 @@ nav
   nav a{color: color-mix(in srgb, var(--secondary), white 50%);}  
 }*/
 
-@media (min-width: 769px) {#andi_profile img
+@media (min-width: 769px) {#andi_profile img, .gallery
 {
 	box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.2);
 	max-height: 400px;
@@ -84,7 +90,7 @@ nav
 }}
 
  @media (max-width: 768px) {
-#andi_profile img
+#andi_profile img, .gallery
 {
 	box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.2);
 	max-height: 300px;
