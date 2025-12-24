@@ -12,8 +12,9 @@ h1, h2, h3, h4, h5, legend
 }
 
 h2 {color: var(--tertiary);}
-legend {color: var(--primary);}
-input{background: var(--secondary); color: #e2e2e2;}
+legend {color: var(--primary); font-weight: 600;}
+input, select{background: var(--secondary); color: #e2e2e2; font-family: 'Lexend', sans-serif;}
+select{text-transform: lowercase;}
 
 .dataTables_scrollHeadInner
 {
@@ -21,17 +22,17 @@ input{background: var(--secondary); color: #e2e2e2;}
   color: #e2e2e2;
 }
 
-.dataTables_scrollBody
+.dataTables_scrollBody, main
 {
   font-family: Lexend, sans-serif;
   font-size: 10pt;
   font-weight: 300;
-  text-transform: lowercase
+  text-transform: lowercase;
 }
 
-.dataTables_scrollBody a{font-weight: 500;}
+main{text-transform: unset;}
 
-.small{font-weight: 500;}
+a, .small{font-weight: 500;}
 
     .container {
       display: flex;
@@ -119,5 +120,12 @@ nav a
   justify-content: center;
   border-radius: 1rem;
   gap: 1rem;
-
 }
+
+.ribbons b
+{
+  font-size: 1.25rem;
+}
+
+.progress-bar{border-radius: 3px;}
+.progress{border-radius: 3px;}
