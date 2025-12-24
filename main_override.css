@@ -71,7 +71,7 @@ nav
   nav a{color: color-mix(in srgb, var(--secondary), white 50%);}  
 }
 
-img
+#andi_profile img
 {
 	box-shadow: .2rem .2rem 1rem rgba(0, 0, 0, 0.2);
 	max-height: 400px;
@@ -83,6 +83,9 @@ img
 	background: color-mix(in srgb, var(--secondary), transparent 60%);
 }
 
+ @media (max-width: 768px) {
+#andi_profile img{max-height: 300px;}
+ }
 
 #stable_name
 {	
