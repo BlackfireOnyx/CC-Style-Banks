@@ -1,9 +1,9 @@
 /* Arabian/Quarab project */
 
 :root{
---secondary: #D99AA5 !important;
---tertiary: #183940 !important;
---primary: #F29544 !important;
+--secondary: #D99AA5 !important; /* PINK */
+--primary: #183940 !important; /* FOREST GREEN */
+--tertiary: #F29544 !important; /* ORANGE */
 /*--alt: #706F73 !important;
 --background: #585859 !important;
 --text: #D7D7D9 !important;*/
