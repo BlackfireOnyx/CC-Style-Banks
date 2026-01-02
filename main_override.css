@@ -27,7 +27,7 @@ select{text-transform: lowercase;}
 .dataTables_scrollBody, main
 {
   font-family: Lexend, sans-serif;
-  font-size: 10pt;
+  font-size: .85rem;
   font-weight: 300;
   text-transform: lowercase;
 }
@@ -51,17 +51,23 @@ small{color: var(--tertiary);}
       overflow: auto;
       padding: 20px;
       margin: 10px;
-      background-color: var(--primary);
       text-align: left;
       border: 1px solid var(--border);
       box-sizing: border-box;
-      color: #e2e2e2;
+      color: var(--secondary);
+      border-radius: 1rem;
+      background: var(--alt);
+      font-weight: 400;
     }
 
     @media (max-width: 768px) {
       .column {
         flex: 1 1 100%;
       }
+}
+
+[data-theme="dark"]{
+  .column{color: var(--text);}
 }
 
 /* Horse Pages */
@@ -143,46 +149,3 @@ nav a
 
 .progress-bar{border-radius: 3px;}
 .progress{border-radius: 3px;}
-
-/* Featured Stallion Code */
-
-.stallion-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .stallion-card {
-      background: #fff;
-      border-radius: 6px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      overflow: hidden;
-      text-align: center;
-      transition: transform 0.2s ease;
-    }
-
-    .stallion-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .stallion-card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 0 0 0 0;
-    }
-
-    .stallion-info {
-      padding: 1rem;
-    }
-
-    .stallion-info h2 {
-      font-size: 1.2rem;
-      margin: 0.5rem 0;
-    }
-
-    .stallion-info p {
-      font-size: 0.9rem;
-      color: #555;
-      margin: 0.25rem 0;
-    }
