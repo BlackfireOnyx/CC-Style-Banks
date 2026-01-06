@@ -3,12 +3,13 @@
 :root{
 	--primary: #695779 !important; /* PURPLE */
 	--secondary: #687856 !important; /* GREEN */
-	--tertiary: #99CDC9 !important; /* ELECTRIC BLUE */
+	--tertiary: #5A7B78 !important; /* TEAL */
 }
 
 [data-theme="dark"]{
 	
-	--secondary: #9CB381 !important;
+	--secondary: #73855F !important;
+	--tertiary: #99CDC9 !important; /* ELECTRIC BLUE */
 }
 
 /* PREVIOUS VERSION
