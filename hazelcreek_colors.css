@@ -8,5 +8,9 @@
   	--border: #473C2D  !important; */
 	--primary: #B89A74 !important; /* Tan */
 	--secondary: #749FB8 !important; /* Sky Blue */
-	--tertiary: #8EB874 !important; /* Leaf Green */
+	--tertiary: #607D4D !important; /* Leaf Green */
+}
+
+[data-theme="dark"]{
+	--tertiary: #8EB874 !important; /* Bright Leaf Green */
 }
