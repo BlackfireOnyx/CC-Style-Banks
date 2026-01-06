@@ -2,13 +2,14 @@
 
 :root{
 --secondary: #D99AA5 !important; /* PINK */
---primary: #183940 !important; /* FOREST GREEN */
---tertiary: #F29544 !important; /* ORANGE */
+--primary: #183940 !important; /* DEEP TEAL */
+--tertiary: #A7652C !important; /* BURNT ORANGE */
 /*--alt: #706F73 !important;
 --background: #585859 !important;
 --text: #D7D7D9 !important;*/
 }
 
 [data-theme="dark"]{
-		--primary: #2E6D7B !important;
+  --primary: #438897 !important;
+  --tertiary: #F29544 !important; /* ORANGE */
 }
