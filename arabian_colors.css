@@ -8,3 +8,7 @@
 --background: #585859 !important;
 --text: #D7D7D9 !important;*/
 }
+
+[data-theme="dark"]{
+		--primary: #2E6D7B !important;
+}
