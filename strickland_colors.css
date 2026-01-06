@@ -6,6 +6,10 @@
 	--tertiary: #99CDC9 !important; /* ELECTRIC BLUE */
 }
 
+[data-theme="dark"]{
+	
+	--secondary: #9CB381 !important;
+}
 
 /* PREVIOUS VERSION
 
