@@ -6,6 +6,10 @@
 	--tertiary: #FF9924 !important; /* Carrot */
 }
 
+[data-theme="dark"]{
+		--secondary: #659BBC !important;
+}
+
 /* PREVIOUS VERSION
 :root{
     --background: #34383b !important;
