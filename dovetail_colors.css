@@ -3,11 +3,12 @@
 :root{
 	--primary: #908A83 !important; /* Dusky Beige */
 	--secondary: #334E5F !important; /* Dusky Blue */
-	--tertiary: #FF9924 !important; /* Carrot */
+	--tertiary: #AA6414 !important; /* Burnt Carrot */
 }
 
 [data-theme="dark"]{
 		--secondary: #5F8CA9 !important;
+		--tertiary: #FF9924 !important; /* Carrot */
 }
 
 /* PREVIOUS VERSION
@@ -20,5 +21,4 @@
 	--tertiary: #657B87 !important;
 	--secondary: #BF925A !important;
 } */
-
 
