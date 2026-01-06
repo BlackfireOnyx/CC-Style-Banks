@@ -7,7 +7,7 @@
 }
 
 [data-theme="dark"]{
-		--secondary: #659BBC !important;
+		--secondary: #5F8CA9 !important;
 }
 
 /* PREVIOUS VERSION
@@ -20,4 +20,5 @@
 	--tertiary: #657B87 !important;
 	--secondary: #BF925A !important;
 } */
+
 
