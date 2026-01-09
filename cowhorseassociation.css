@@ -1,0 +1,12 @@
+:root{
+  --primary: #333c5c !important;
+  --secondary: #a86217 !important;
+  --tertiary: #004d4b !important;
+}
+
+[data-theme="dark"]
+{
+                --primary: #7284C3 !important;
+                --secondary: #C4731D !important;
+                --tertiary: #009693 !important;
+}
