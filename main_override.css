@@ -84,7 +84,7 @@ nav a
   color: #e2e2e2;
 }
 
-.active{background: var(--alt); border-radius: 5% 50%;}
+.active{background: var(--alt);}
 
 @media (min-width: 769px) {#andi_profile img, .gallery
 {
