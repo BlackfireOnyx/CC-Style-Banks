@@ -45,7 +45,7 @@ small{color: var(--tertiary);}
         width: 100%; 
     }
 
-    .column {
+    .column, .stableinfo {
       flex: 1 30%;
       padding: 16px;
       overflow: auto;
@@ -59,6 +59,8 @@ small{color: var(--tertiary);}
       background: var(--alt);
       font-weight: 400;
     }
+
+.stableinfo legend{display: none;}
 
     @media (max-width: 768px) {
       .column {
@@ -113,6 +115,16 @@ nav a
 
 #stable_name
 {
+  width: 100%;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 5em;
+  color: var(--secondary);
+  font-family: 'Qwitcher Grypen', serif;
+}
+
+/*#stable_name
+{
 	border-radius: 0;
 	display: block;
 	margin: 0 auto;
@@ -124,7 +136,7 @@ nav a
   font-weight: 800;
   color: white;
   font-size: 1.2em;
-}
+}*/
 
 /*#stable_name
 {	
