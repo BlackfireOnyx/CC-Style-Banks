@@ -1,0 +1,11 @@
+/* Eichenblatt */
+
+:root{
+	--primary: #94A69F !important; /* Sage */
+	--secondary: #7B6A68 !important; /* Pink [Dark] */
+	--tertiary: #648BAE !important; /* Blue */
+}
+
+[data-theme="dark"]{
+		--secondary: #F7D6D2 !important; /* Soft Pink */
+}
