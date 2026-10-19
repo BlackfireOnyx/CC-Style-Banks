@@ -1,4 +1,10 @@
 :root{
+  --accent: #333c5c;
+  --accent-2: #a86217;
+  --highlight: #009693;
+}
+
+/*:root{
   --primary: #333c5c !important;
   --secondary: #a86217 !important;
   --tertiary: #004d4b !important;
@@ -9,4 +15,4 @@
                 --primary: #7284C3 !important;
                 --secondary: #C4731D !important;
                 --tertiary: #009693 !important;
-}
+}*/
