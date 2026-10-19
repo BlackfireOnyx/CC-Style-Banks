@@ -1,16 +1,22 @@
 /* Hazel Creek */
 
-:root
+:root{
+	--accent: #B89A74; /* Tan */
+	--accent-2: #749FB8; /* Sky Blue */
+	--highlight: #607D4D; /* Leaf Green */
+}
+
+/*:root
 {
 	/*--background: #6B5A43 !important;
   	--alt: #61513D !important;
   	--text: #C9BBA7 !important;
   	--border: #473C2D  !important; */
-	--primary: #B89A74 !important; /* Tan */
-	--secondary: #749FB8 !important; /* Sky Blue */
-	--tertiary: #607D4D !important; /* Leaf Green */
-}
+/*	--primary: #B89A74 !important; /* Tan */
+/*	--secondary: #749FB8 !important; /* Sky Blue */
+/*	--tertiary: #607D4D !important; /* Leaf Green */
+/*}
 
-[data-theme="dark"]{
-	--tertiary: #8EB874 !important; /* Bright Leaf Green */
-}
+/*[data-theme="dark"]{
+	/*--tertiary: #8EB874 !important; /* Bright Leaf Green */
+/*}*/
