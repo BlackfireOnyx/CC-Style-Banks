@@ -1,16 +1,23 @@
 /* Strickland */
 
 :root{
-	--primary: #695779 !important; /* PURPLE */
-	--secondary: #687856 !important; /* GREEN */
-	--tertiary: #5A7B78 !important; /* TEAL */
+	--accent: #695779; /* PURPLE */
+	--accent-2: #687856; /* GREEN */
+	--highlight: #5A7B78; /* TEAL */
 }
 
-[data-theme="dark"]{
+
+/*:root{
+	--primary: #695779 !important; /* PURPLE */
+	/*--secondary: #687856 !important; /* GREEN */
+	/*--tertiary: #5A7B78 !important; /* TEAL */
+/*}
+
+/*[data-theme="dark"]{
 	
 	--secondary: #73855F !important;
 	--tertiary: #99CDC9 !important; /* ELECTRIC BLUE */
-}
+/*}*/
 
 /* PREVIOUS VERSION
 
@@ -21,6 +28,6 @@
     --border: #363242  !important; 
 	--primary: #534870 !important; /* PURPLE */
 	/*--secondary: #6B7D41 !important;*/ /*original green*/
-	--secondary: #879638 !important; /*brighter green*/
-	--tertiary: #7D624D !important;
+/*	--secondary: #879638 !important; /*brighter green*/
+/*	--tertiary: #7D624D !important;
 } */
