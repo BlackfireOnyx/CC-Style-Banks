@@ -1,15 +1,21 @@
 /* Dovetail */
 
 :root{
+	--accent: #908A83; /* Dusky Beige */
+	--accent-2: #5F8CA9; /* Blue */
+	--highlight: #a67265; /* Dusty Brick */
+	}
+
+/*:root{
 	--primary: #908A83 !important; /* Dusky Beige */
-	--secondary: #334E5F !important; /* Dusky Blue */
-	--tertiary: #AA6414 !important; /* Burnt Carrot */
-}
+/*	--secondary: #334E5F !important; /* Dusky Blue */
+/*	--tertiary: #AA6414 !important; /* Burnt Carrot */
+/*}
 
 [data-theme="dark"]{
 		--secondary: #5F8CA9 !important;
 		--tertiary: #FF9924 !important; /* Carrot */
-}
+/*}
 
 /* PREVIOUS VERSION
 :root{
