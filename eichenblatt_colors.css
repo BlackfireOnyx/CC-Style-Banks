@@ -1,7 +1,13 @@
 /* Eichenblatt */
 
 :root{
+	--accent: #63676a; /* Slate */
+	--accent-2: #8c9093; /* Fog */
+	--highlight: #b0bd3e; /* Lime */
+}
+
+/*:root{
 	--primary: #63676a !important;
 	--secondary: #8c9093 !important;
 	--tertiary: #b0bd3e !important;
-}
+}*/
