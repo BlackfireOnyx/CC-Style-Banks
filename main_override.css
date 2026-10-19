@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root{
+--font-display: 'EB Garamond', serif;
+}
+
+tr.yours{background: var(--background) !important; font-weight: unset;}
+tr.yours:nth-child(2n+1) { background: var(--alt) !important;}
+
+.gallery {display: block; margin: 2rem auto; border: 10px inset var(--tertiary); outline: 10px outset var(--primary); max-height: 320px; border-radius: 0; background: var(--background); padding: 2rem;}
+.gallery img{border-radius: 0;}
+
+#stable_name{width: 100%; text-align: center; font-size: 2em; color: var(--secondary); font-family: var(--font-display); font-variant: small-caps; margin-top: -5rem; margin-bottom: 5rem;}
