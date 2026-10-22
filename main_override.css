@@ -4,9 +4,6 @@
 --font-display: 'EB Garamond', serif;
 }
 
-tr.yours{background: var(--background) !important; font-weight: unset;}
-tr.yours:nth-child(2n+1) { background: var(--alt) !important;}
-
 .gallery {display: block; margin: 2rem auto; border: 10px inset var(--tertiary); outline: 10px outset var(--primary); max-height: 320px; border-radius: 0; background: var(--background); padding: 2rem;}
 .gallery img{border-radius: 0;}
 
