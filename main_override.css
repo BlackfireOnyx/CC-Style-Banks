@@ -4,7 +4,7 @@
 --font-display: 'EB Garamond', serif;
 }
 
-.gallery {display: block; margin: 2rem auto; border: 10px inset var(--tertiary); outline: 10px outset var(--primary); max-height: 320px; border-radius: 0; background: var(--background); padding: 2rem;}
+.gallery {display: block; margin: 2rem auto; border: 10px inset var(--tertiary); outline: 10px outset var(--primary); max-width: 70%; border-radius: 0; background: var(--background); padding: 2rem;}
 .gallery img{border-radius: 0;}
 
-#stable_name{width: 100%; text-align: center; font-size: 2em; color: var(--secondary); font-family: var(--font-display); font-variant: small-caps; margin-top: -5rem; margin-bottom: 5rem;}
+#stable_name{width: 100%; text-align: center; font-size: 2em; color: var(--secondary); font-family: var(--font-display); font-variant: small-caps; margin-top: -4.90rem; margin-bottom: 2rem;}
