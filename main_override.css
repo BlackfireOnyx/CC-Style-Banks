@@ -8,13 +8,13 @@
 
 .small{color: var(--highlight);}
 .topbar{background: var(--accent-2);}
-.hero-card{padding-top: 150px; background: linear-gradient(150deg, var(--accent) 0%, color-mix(in srgb, var(--highlight) 65%, white) 100%);}
 th{background: var(--highlight); color: var(--starlight);}
 .hero-card-inner{text-shadow: 1px 1px 1px var(--accent);}
+.hero-card{padding-top: 150px;}
 
 [data-mode="dark"]{
 .topbar{background: var(--tertiary-2);}
-.hero-card{padding-top: 150px; background: linear-gradient(150deg, var(--tertiary) 0%, color-mix(in srgb, var(--highlight) 65%, black) 100%);} 
+.hero-card{padding-top: 150px;} 
 th{background: var(--tertiary-3);}
 }
 
