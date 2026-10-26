@@ -9,7 +9,6 @@
 .small{color: var(--highlight);}
 .topbar{background: var(--accent-2);}
 th{background: var(--highlight); color: var(--starlight);}
-.hero-card-inner{text-shadow: 1px 1px 1px var(--accent);}
 .hero-card{padding-top: 150px;}
 
 [data-mode="dark"]{
