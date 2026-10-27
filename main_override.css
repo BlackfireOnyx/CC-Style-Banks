@@ -7,12 +7,12 @@
 }
 
 .small{color: var(--highlight);}
-.topbar{background: var(--accent-2);}
+.topbar, sidebar, .hamburger{background: var(--accent-2);}
 th{background: var(--highlight); color: var(--starlight);}
 .hero-card{padding-top: 150px;}
 
 [data-mode="dark"]{
-.topbar{background: var(--tertiary-2);}
+.topbar, sidebar, .hamburger{background: var(--tertiary-2);}
 .hero-card{padding-top: 150px;} 
 th{background: var(--tertiary-3);}
 }
