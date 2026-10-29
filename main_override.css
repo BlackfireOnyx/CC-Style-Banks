@@ -8,13 +8,11 @@
 .small{color: var(--highlight);}
 .topbar, sidebar, .hamburger{background: var(--accent-2);}
 th{background: var(--highlight); color: var(--starlight);}
-.hero-card{padding-top: 150px;}
 .hero-card-inner{text-shadow: 1px 1px color-mix(black 40%, transparent);}
 .card{outline: .1em outset color-mix(in oklab, var(--accent) 30%, indigo, transparent 60%);}
 
 [data-mode="dark"]{
 .topbar, sidebar, .hamburger{background: var(--tertiary-2);}
-.hero-card{padding-top: 150px;} 
 th{background: var(--tertiary-3);}
 body{background-image: url('https://blackfireonyx.github.io/CC-Style-Banks/testbg_light.png'); background-blend-mode: soft-light;}
 }
