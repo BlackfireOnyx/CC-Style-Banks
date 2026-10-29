@@ -3,7 +3,7 @@
 :root{
 --font-display: 'EB Garamond', serif;
   --tertiary-2: color-mix(in srgb, var(--accent-2) 35%, black); 
-  --tertiary-3: color-mix(in srgb, var(--highlight) 35%, black)
+  --tertiary-3: color-mix(in srgb, var(--highlight) 55%, black)
 }
 
 .small{color: var(--highlight);}
@@ -11,6 +11,7 @@
 th{background: var(--highlight); color: var(--starlight);}
 .hero-card{padding-top: 150px;}
 .hero-card-inner{text-shadow: 1px 1px color-mix(black 40%, transparent);}
+.card{outline: .1em outset color-mix(in oklab, var(--accent) 30%, indigo, transparent 60%);}
 
 [data-mode="dark"]{
 .topbar, sidebar, .hamburger{background: var(--tertiary-2);}
