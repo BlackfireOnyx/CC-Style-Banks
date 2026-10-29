@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root{
---font-display: 'EB Garamond', serif;
   --tertiary-2: color-mix(in srgb, var(--accent-2) 35%, black); 
   --tertiary-3: color-mix(in srgb, var(--highlight) 55%, black)
 }
