@@ -17,10 +17,10 @@ th{background: var(--highlight); color: var(--starlight);}
 .topbar, sidebar, .hamburger{background: var(--tertiary-2);}
 .hero-card{padding-top: 150px;} 
 th{background: var(--tertiary-3);}
-body{background-image: url('https://blackfireonyx.github.io/CC-Style-Banks/testbg.png'); background-blend-mode: soft-light;}
+body{background-image: url('https://blackfireonyx.github.io/CC-Style-Banks/testbg_light.png'); background-blend-mode: soft-light;}
 }
 
-body{background-image: url('https://blackfireonyx.github.io/CC-Style-Banks/testbg.png');}
+body{background-image: url('https://blackfireonyx.github.io/CC-Style-Banks/testbg_light.png');}
 
 .gallery {display: block; margin: 2rem auto; border: 10px inset var(--tertiary); outline: 10px outset var(--primary); max-width: 70%; border-radius: 0; background: var(--background); padding: 2rem;}
 .gallery img{border-radius: 0;}
